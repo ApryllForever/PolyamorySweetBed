@@ -1,6 +1,6 @@
-﻿namespace BedTweaks
+﻿namespace PolyamorySweetBed
 {
-    public class BedTweaksAPI
+    public class PolyamorySweetBedAPI
     {
         public int GetBedWidth()
         {

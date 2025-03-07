@@ -1,5 +1,5 @@
 ﻿
-namespace BedTweaks
+namespace PolyamorySweetBed
 {
     public class ModConfig
     {

@@ -8,7 +8,7 @@ using StardewValley.Objects;
 using System;
 using Object = StardewValley.Object;
 
-namespace BedTweaks
+namespace PolyamorySweetBed
 {
     public partial class ModEntry
     {

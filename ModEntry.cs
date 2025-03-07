@@ -5,7 +5,7 @@ using StardewValley.Objects;
 using System;
 using Object = StardewValley.Object;
 
-namespace BedTweaks
+namespace PolyamorySweetBed
 {
     /// <summary>The mod entry point.</summary>
     public partial class ModEntry : Mod
@@ -87,7 +87,7 @@ namespace BedTweaks
 
         public override object GetApi()
         {
-            return new BedTweaksAPI();
+            return new PolyamorySweetBedAPI();
         }
     }
 }

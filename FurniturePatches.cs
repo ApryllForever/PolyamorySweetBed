@@ -7,7 +7,7 @@ using StardewValley.ItemTypeDefinitions;
 using StardewValley.Objects;
 using System;
 
-namespace BedTweaks
+namespace PolyamorySweetBed
 {
     public partial class ModEntry
     {
