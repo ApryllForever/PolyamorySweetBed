@@ -59,25 +59,25 @@ namespace PolyamorySweetBed
 
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Mod Enabled",
+                name: () => Helper.Translation.Get("config.enable-mod.name"),
                 getValue: () => Config.EnableMod,
                 setValue: value => Config.EnableMod = value
             );
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Redraw Middle Pillows",
+                name: () => Helper.Translation.Get("config.redraw-middle-pillows.name"),
                 getValue: () => Config.RedrawMiddlePillows,
                 setValue: value => Config.RedrawMiddlePillows = value
             );
             configMenu.AddNumberOption(
                 mod: ModManifest,
-                name: () => "Bed Width",
+                name: () => Helper.Translation.Get("config.bed-width.name"),
                 getValue: () => Config.BedWidth,
                 setValue: value => Config.BedWidth = value
             );
             configMenu.AddNumberOption(
                 mod: ModManifest,
-                name: () => "Sheet Opacity %",
+                name: () => Helper.Translation.Get("config.sheet-transparency.name"),
                 getValue: () => (int)(Config.SheetTransparency * 100),
                 setValue: value => Config.SheetTransparency = value / 100f,
                 min: 1,

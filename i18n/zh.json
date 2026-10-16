@@ -1,0 +1,6 @@
+{
+  "config.enable-mod.name": "启用模组",
+  "config.redraw-middle-pillows.name": "重绘中间的枕头",
+  "config.bed-width.name": "床的宽度",
+  "config.sheet-transparency.name": "床单不透明度 %"
+}
